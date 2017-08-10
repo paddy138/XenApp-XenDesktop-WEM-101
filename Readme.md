@@ -15,6 +15,7 @@ Connect as a demo admin, either through the StoreFront site to launch XenCenter 
 
 Start server DNA1. For this demo environment, this server runs the WEM services.
 
+[./Images/start-dna1.png]
 
 
 
