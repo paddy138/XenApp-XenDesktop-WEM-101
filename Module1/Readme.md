@@ -7,13 +7,19 @@ In this Module for Workspace Environment Manager, you will test the default sett
 
 Connect to one of the XAWx servers (XAW1 or XAW2)
 
+![alt](./Images/connect.png)
+
 **NOTE:** The following steps are only designed for a POC or dev environment, not in production.
 
 Download the "WEM-Examples.zip" file from GitHub and copy all files in the archive into a local temp folder, for example the “Documents” folder
 
+![alt](./Images/examples-download.png)
+
 **CPU idle step:**
 Launch services.msc and stop Norskale Agent Host service in order to stop WEM optimizations. 
- 
+
+![alt](./Images/stop-service.png)
+
 Launch WEM POC results.xlsx from your Documents folder
 
 To avoid any Windows optimization side effects, launch and close each of the example files twice: 
@@ -34,10 +40,11 @@ Fill rounded numbers in the results excel file, on the first column:
 - Keep WEM service stopped,
 - Right-click on the taskbar and launch Task Manager
 
-From Windows Explorer, connect to \\WEMB\CitrixWEM-install\  and copy cpueater.exe to your desktop
-Launch cpueater.exe
- 
+From Windows Explorer, launch cpueater.exe from the folder you copied the Example files into
+
 Click the On button, and check on Task Manager that the CPU is “eaten”
+
+![alt](./Images/cpu-eater.png)
 
 Use your smartphone to measure “launch time” for each example file: time between enter key stroke to launch the file and the time when the application is ready to use.
 
@@ -47,10 +54,14 @@ Fill rounded numbers in the results excel file, on the second column:
 100% CPU used, with optimization step:
 
 Start services.msc and start Norskale Agent Host Service
+
+![alt](./Images/start-service.png)
  
 Launch cpueater.exe
  
 Click the On button, and check on Task Manager that the CPU is “eaten”
+
+![alt](./Images/cpu-eater.png)
 
 Use your smartphone to measure “launch time” for each example file: time between enter key stroke to the launch of the file and time when the application is ready to use.
 
@@ -65,6 +76,8 @@ This step by step scenario can be easily done in a POC with customers.
 
 Close every sample application, and launch “My Excel File.xlsx”
 Check immediately memory size on Task Manager, Details tab, Memory column:
+
+![alt](./Images/ram-opt-before.png)
  
 Go to the RAM tab of “WEM POC results.xlsx” and fill this rounded number in MB, in this first column:
  
