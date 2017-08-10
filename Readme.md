@@ -1,4 +1,9 @@
 # **Training Overview** #
+
+[Module 1 - CPU and RAM optimization](./Module1)
+
+[Module 2 - Configuration Deployment](./Module2)
+
 **Objective**
 
 In this lab, you will discover how to build a snappy user experience, increase user density on any XenApp, XenDesktop environment, and learn how to manage a fast logon time (<15 s)

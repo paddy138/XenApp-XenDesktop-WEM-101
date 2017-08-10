@@ -42,13 +42,13 @@ Fill rounded numbers in the results excel file, on the first column:
 
 From Windows Explorer, launch cpueater.exe from the folder you copied the Example files into
 
-Click the On button, and check on Task Manager that the CPU is “eaten”
+Click the **On** button, and check on Task Manager that the CPU is “eaten”
 
 ![alt](./Images/cpu-eater.png)
 
 Use your smartphone to measure “launch time” for each example file: time between enter key stroke to launch the file and the time when the application is ready to use.
 
-Click Off on CPUeater
+Click **Off** on CPUeater
 Fill rounded numbers in the results excel file, on the second column:
  
 100% CPU used, with optimization step:
@@ -59,13 +59,13 @@ Start services.msc and start Norskale Agent Host Service
  
 Launch cpueater.exe
  
-Click the On button, and check on Task Manager that the CPU is “eaten”
+Click the **On** button, and check on Task Manager that the CPU is “eaten”
 
 ![alt](./Images/cpu-eater.png)
 
 Use your smartphone to measure “launch time” for each example file: time between enter key stroke to the launch of the file and time when the application is ready to use.
 
-Click Off on CPUeater
+Click **Off** on CPUeater
 Fill in the rounded numbers in the results excel file, on the third column:
  
 In the first part of the exercise, you have verified WEM CPU optimization benefits. Even though CPU was maxed out, we maintained the best possible performance level for end user activity.
